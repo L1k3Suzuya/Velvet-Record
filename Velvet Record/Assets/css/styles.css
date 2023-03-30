@@ -1,0 +1,249 @@
+
+/* ---------------- GENERAL ---------------- */
+
+body{
+    background-image: url("https://wallpapercave.com/wp/wp1827986.jpg");
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ---------------- NAVBAR ---------------- */
+
+.dropdown-item {
+    color: white;
+}
+
+/* ---------------- INDEX ---------------- */
+
+.card {
+    width: 22rem;
+    border-width: 3px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+button {
+    margin-bottom: 30px;
+}
+
+.video_section{
+    max-height: 500px;
+    overflow: hidden;
+}
+
+#video {
+    margin-top: -100px;
+}
+
+.embed-responsive-item {
+    max-width: 100%;
+}
+
+#img_dernier {
+    height: 50px;
+    width: 50px;
+    margin-right: 10px;
+}
+
+#lien_dernier {
+    color: black;
+}
+
+.card-img-top, .img-fluid {
+    height: 20rem;
+}
+
+#connexion_success, #deconnexion_success{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#connexion_alert, #deconnexion_alert {
+    margin-top: 10px;
+}
+
+/* ---------------- ADD ---------------- */
+
+.image_ajout {
+    max-height: 500px;
+    overflow: hidden;
+}
+
+#photo_ajout {
+    margin-top: 20px;
+}
+
+/* ---------------- UPDATE ---------------- */
+
+.image_modifs {
+    max-height: 500px;
+    overflow: hidden;
+}
+
+#photo_modifs {
+    margin-top: -20px;
+}
+
+/* ---------------- LOGIN ---------------- */
+
+#fond_login { 
+   background-size: cover;
+   height: 891px;
+}
+
+i {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#connexion {
+    margin-top: 70px;
+    margin-bottom: 70px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#button_connexion {
+    margin-top: 20px;
+}
+
+#mail_login {
+    margin-bottom: 50px;
+}
+
+#input_empty {
+    margin-top: -45px;
+}
+
+#compte {
+    margin-top: -45px;
+}
+
+/* ---------------- REGISTRATION ---------------- */
+
+#fond_registration {
+   background-size: cover;
+   background-position: center;
+   height: 1000px;
+}
+
+/*#mail_registration, #password_registration, #nom_registration, #prenom_registration {
+    margin-bottom: 50px;
+}*/
+
+#conf_password_registration {
+    margin-bottom: 30px;
+}
+
+#inscription {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#button_inscription {
+    margin: 0 auto;
+}
+
+#register {
+    margin-left: 0 auto;
+    margin-right: 0 auto;
+}
+
+#form_group_mail, #form_group_password, #form_group_conf_password, #form_group_nom, #form_group_prenom {
+    margin: 0 auto;
+}
+
+#nom_m, #prenom_m, #mail_e, #mail_m, #password_d, #password_m, #conf_password_d {
+    margin-top: -5px;
+}
+
+/* ---------------- FORGOT PASSWORD ---------------- */
+
+#forgot_password {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+}
+
+#emailHelp {
+    margin-bottom: 30px;
+    color: white !important;
+}
+
+#button_forgot {
+    margin: 0 auto;
+}
+
+#form_group_forgot {
+    margin: 0 auto;
+}
+
+#input_empty_mail {
+    margin-top: -20px;
+}
+
+#compte_i {
+    margin-top: -20px;
+}
+
+/* ---------------- NEW PASSWORD ---------------- */
+
+#form_group_new_mdp, #form_group_conf_new_mdp {
+    margin: 0 auto;
+}
+
+#button_new_mdp {
+    margin: 0 auto;
+}
+
+#fond_new_mdp {
+   background-size: cover;
+   background-position: center;
+   height: 900px;
+}
+
+#new_password {
+    margin-bottom: 50px;
+}
+
+#conf_new_password {
+    margin-bottom: 30px;
+}
+
+#new_password_manquant {
+    margin-top: -50px;
+}
+
+#new_password_confirm {
+    margin-top: -30px;
+}
+
+#new_password_faible {
+    margin-top: -10px;
+}
+
+#new_password_diff1 {
+    margin-top: -51px;
+}
+
+#new_password_diff2 {
+    margin-top: -31px;
+}
+
+/* ---------------- DETAIL ---------------- */
+
+#suppr_button {
+    margin-top: -30px;
+}
